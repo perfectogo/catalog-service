@@ -27,7 +27,7 @@ type Author struct {
 	AuthorName           string   `protobuf:"bytes,2,opt,name=authorName,proto3" json:"authorName"`
 	CreatedAt            string   `protobuf:"bytes,3,opt,name=createdAt,proto3" json:"createdAt"`
 	UpdatedAt            string   `protobuf:"bytes,4,opt,name=updatedAt,proto3" json:"updatedAt"`
-	DeletedAt            string   `protobuf:"bytes,5,opt,name=deletedAt,proto3" json:"deletedAt"`
+	DeletedAt            string   `protobuf:"bytes,5,opt,name=deletedAt,proto3" json:"-"`
 	XXX_NoUnkeyedLiteral struct{} `json:"-"`
 	XXX_unrecognized     []byte   `json:"-"`
 	XXX_sizecache        int32    `json:"-"`
