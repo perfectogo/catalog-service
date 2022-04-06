@@ -2,12 +2,12 @@
 ## book-shop catalog-service for template
 
 ### Migration
-#### Migrations to create a new migration:
+* **Migrations to create a new migration:**
 ```
 migrate create -ext sql -dir migrations -seq create_catalog_tables
 ```
 
-* create file *"run-migration.sh"* and write:
+* **create file *"run-migration.sh"* and write:**
 ```
     #!/bin/bash
     # CURRENT_DIR=$(pwd)
